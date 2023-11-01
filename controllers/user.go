@@ -1,10 +1,11 @@
 package controllers
 
 import (
+	"errors"
 	"fmt"
+	"goweb/dao/mysql"
 	"goweb/models"
 	"goweb/service"
-	"net/http"
 
 	"github.com/go-playground/validator/v10"
 
@@ -22,32 +23,52 @@ func SignupHandler(c *gin.Context) {
 		errs, ok := err.(validator.ValidationErrors)
 		//不是参数类型错误
 		if !ok {
-			c.JSON(http.StatusOK, gin.H{
-				"msg": "请求参数有误",
-			})
+			ResponseError(c, CodeInvalidParam)
 			return
 		}
 		//是参数类型错误
-		c.JSON(http.StatusOK, gin.H{
-			"msg": removeTopStruct(errs.Translate(trans)),
-		})
+		ResponseErrorWithMsg(c, CodeInvalidParam, removeTopStruct(errs.Translate(trans)))
 		return
 
 	}
 	fmt.Println(p)
 	//2. 业务处理
 	if err := service.SignUp(p); err != nil {
-		c.JSON(http.StatusOK, gin.H{
-			"msg": "注册失败",
-		})
+		if errors.Is(err, mysql.ErrorUserExist) {
+			ResponseError(c, CodeUserExist)
+			return
+		}
+		ResponseError(c, CodeServerBusy)
 		return
 	}
 	//3. 返回响应
-	c.JSON(http.StatusOK, gin.H{
-		"msg": "ok",
-	})
+	ResponseSuccess(c, nil)
 }
 
 func LoginHandler(c *gin.Context) {
+	p := new(models.ParamLogin)
+	if err := c.ShouldBindJSON(p); err != nil {
+		zap.L().Error("login with invalid param", zap.String("username", p.UserName), zap.Error(err))
+		//判断是不是参数类型的错误
+		errs, ok := err.(validator.ValidationErrors)
+		//不是参数类型错误
+		if !ok {
+			ResponseError(c, CodeInvalidParam)
+			return
+		}
+		//是参数类型错误
+		ResponseErrorWithMsg(c, CodeInvalidParam, removeTopStruct(errs.Translate(trans)))
+		return
+	}
+	if err := service.Login(p); err != nil {
+		zap.L().Error("login failed", zap.Error(err))
+		if errors.Is(err, mysql.ErrorUserNotExist) {
+			ResponseError(c, CodeUserNotExist)
+			return
+		}
+		ResponseError(c, CodeInvalidPassword)
+		return
+	}
+	ResponseSuccess(c, nil)
 
 }

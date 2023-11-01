@@ -67,3 +67,34 @@
 {"level":"INFO","time":"2023-11-01T11:10:15.531+0800","caller":"logger/logger.go:85","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.32.2","errors":"","cost":0.0005226}
 {"level":"INFO","time":"2023-11-01T11:10:22.838+0800","caller":"go_web/main.go:82","msg":"Shutdown Server ..."}
 {"level":"INFO","time":"2023-11-01T11:10:22.838+0800","caller":"go_web/main.go:91","msg":"Server exiting"}
+{"level":"INFO","time":"2023-11-01T13:05:39.259+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-01T13:05:39.405+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"ERROR","time":"2023-11-01T13:08:38.849+0800","caller":"controllers/user.go:54","msg":"login with invalid param","error":"Key: 'ParamLogin.password' Error:Field validation for 'password' failed on the 'required' tag"}
+{"level":"INFO","time":"2023-11-01T13:08:38.849+0800","caller":"logger/logger.go:85","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.0005279}
+{"level":"ERROR","time":"2023-11-01T13:08:52.645+0800","caller":"controllers/user.go:71","msg":"login failed","error":"用户已存在"}
+{"level":"INFO","time":"2023-11-01T13:08:52.645+0800","caller":"logger/logger.go:85","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.0240465}
+{"level":"INFO","time":"2023-11-01T13:12:03.478+0800","caller":"go_web/main.go:82","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-01T13:12:03.478+0800","caller":"go_web/main.go:91","msg":"Server exiting"}
+{"level":"INFO","time":"2023-11-01T13:12:08.775+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-01T13:12:08.859+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"ERROR","time":"2023-11-01T13:12:12.482+0800","caller":"controllers/user.go:71","msg":"login failed","error":"密码错误"}
+{"level":"INFO","time":"2023-11-01T13:12:12.482+0800","caller":"logger/logger.go:85","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.0609573}
+{"level":"INFO","time":"2023-11-01T13:12:27.714+0800","caller":"go_web/main.go:82","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-01T13:12:27.715+0800","caller":"go_web/main.go:91","msg":"Server exiting"}
+{"level":"INFO","time":"2023-11-01T13:12:32.887+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-01T13:12:32.963+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"ERROR","time":"2023-11-01T13:12:35.704+0800","caller":"controllers/user.go:71","msg":"login failed","error":"密码错误"}
+{"level":"INFO","time":"2023-11-01T13:12:35.704+0800","caller":"logger/logger.go:85","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.0698064}
+{"level":"ERROR","time":"2023-11-01T13:12:39.314+0800","caller":"controllers/user.go:71","msg":"login failed","error":"用户不存在"}
+{"level":"INFO","time":"2023-11-01T13:12:39.314+0800","caller":"logger/logger.go:85","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.0256458}
+{"level":"ERROR","time":"2023-11-01T13:12:43.639+0800","caller":"controllers/user.go:54","msg":"login with invalid param","error":"invalid character '}' looking for beginning of object key string"}
+{"level":"INFO","time":"2023-11-01T13:12:43.639+0800","caller":"logger/logger.go:85","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.0001865}
+{"level":"ERROR","time":"2023-11-01T13:12:49.147+0800","caller":"controllers/user.go:54","msg":"login with invalid param","error":"Key: 'ParamLogin.password' Error:Field validation for 'password' failed on the 'required' tag"}
+{"level":"INFO","time":"2023-11-01T13:12:49.147+0800","caller":"logger/logger.go:85","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0}
+{"level":"ERROR","time":"2023-11-01T13:12:55.623+0800","caller":"controllers/user.go:54","msg":"login with invalid param","error":"Key: 'ParamLogin.username' Error:Field validation for 'username' failed on the 'required' tag"}
+{"level":"INFO","time":"2023-11-01T13:12:55.623+0800","caller":"logger/logger.go:85","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.000587}
+{"level":"ERROR","time":"2023-11-01T13:13:05.966+0800","caller":"controllers/user.go:71","msg":"login failed","error":"用户不存在"}
+{"level":"INFO","time":"2023-11-01T13:13:05.966+0800","caller":"logger/logger.go:85","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.0239196}
+{"level":"INFO","time":"2023-11-01T13:13:10.366+0800","caller":"logger/logger.go:85","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.021237}
+{"level":"INFO","time":"2023-11-01T13:50:37.863+0800","caller":"go_web/main.go:82","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-01T13:50:37.863+0800","caller":"go_web/main.go:91","msg":"Server exiting"}

@@ -16,6 +16,7 @@ func Setup(mode string) *gin.Engine {
 	r := gin.New()
 	r.Use(logger.GinLogger(), logger.GinRecovery(true))
 
+	r.POST("/login", controllers.LoginHandler)
 	r.POST("/signup", controllers.SignupHandler)
 	r.GET("/", func(c *gin.Context) {
 		c.String(http.StatusOK, settings.Conf.Version)
