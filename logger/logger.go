@@ -1,6 +1,7 @@
 package logger
 
 import (
+	"fmt"
 	"goweb/settings"
 	"net"
 	"net/http"
@@ -25,12 +26,26 @@ func Init(cfg *settings.LogConfig, mode string) (err error) {
 		settings.Conf.LogConfig.MaxBackups,
 		settings.Conf.LogConfig.MaxAge)
 	encoder := getEncoder()
+	//日志级别配置
 	var l = new(zapcore.Level)
 	err = l.UnmarshalText([]byte(settings.Conf.LogConfig.Level))
 	if err != nil {
 		return
 	}
-	core := zapcore.NewCore(encoder, writeSyncer, l)
+
+	var core zapcore.Core
+	if mode == "dev" {
+		fmt.Println("devvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv")
+		//输出至终端配置
+		consoleEncoder := zapcore.NewConsoleEncoder(zap.NewDevelopmentEncoderConfig())
+		//可以同时输出至文件和终端
+		core = zapcore.NewTee(
+			zapcore.NewCore(encoder, writeSyncer, l),
+			zapcore.NewCore(consoleEncoder, zapcore.Lock(os.Stdout), zapcore.DebugLevel),
+		)
+	} else {
+		core = zapcore.NewCore(encoder, writeSyncer, l)
+	}
 
 	lg = zap.New(core, zap.AddCaller())
 	zap.ReplaceGlobals(lg) // 替换zap包中全局的logger实例，后续在其他包中只需使用zap.L()调用即可

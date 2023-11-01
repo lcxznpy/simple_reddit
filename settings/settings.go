@@ -50,22 +50,23 @@ type LogConfig struct {
 	MaxBackups int    `mapstructure:"max_backups"`
 }
 
-func Init() (err error) {
+func Init(filename string) (err error) {
 	//相对路径，相对于可执行文件的路径
 	//viper.SetConfigFile("./config.yaml")
 
-	////通过输入参数设置config文件路径
-	//viper.SetConfigFile(filename)
+	//通过输入参数设置config文件路径
+	fmt.Println(filename)
+	viper.SetConfigFile(filename)
 
 	//绝对路径,当前系统的文件路径
 	//viper.SetConfigFile("D:\\GOOOOOOOOOOOOOOOOOOOOOOOO\\go_web\\config.yaml")
 	//读入配置文件
-	viper.SetConfigName("config") // 配置文件名称(无扩展名)
-
-	//从远程配置如etcd中心的获取的文件类型
-	viper.SetConfigType("yaml") // 如果配置文件的名称中没有扩展名，则需要配置此项
-
-	viper.AddConfigPath(".")   // 设置从当前路径找（使用相对路径）
+	//viper.SetConfigName("config") // 配置文件名称(无扩展名)
+	//
+	////从远程配置如etcd中心的获取的文件类型
+	//viper.SetConfigType("yaml") // 如果配置文件的名称中没有扩展名，则需要配置此项
+	//
+	//viper.AddConfigPath(".")   // 设置从当前路径找（使用相对路径）
 	err = viper.ReadInConfig() // 查找并读取配置文件
 	if err != nil {            // 处理读取配置文件的错误
 		fmt.Printf("get config error : %v", err)

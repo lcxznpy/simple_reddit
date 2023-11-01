@@ -3,6 +3,7 @@ package main
 import (
 	"context"
 	"fmt"
+	"goweb/controllers"
 	"goweb/dao/mysql"
 	"goweb/dao/redis"
 	"goweb/logger"
@@ -24,7 +25,7 @@ func main() {
 		return
 	}
 	// 1. 加载配置
-	if err := settings.Init(); err != nil {
+	if err := settings.Init(os.Args[1]); err != nil {
 		fmt.Printf("init config failed :%v", err)
 		return
 	}
@@ -45,14 +46,18 @@ func main() {
 		fmt.Printf("init redis failed :%v", err)
 		return
 	}
-
+	//雪花算法id生成器
 	if err := snowflake.Init(settings.Conf.StartTime, settings.Conf.MachineID); err != nil {
 		fmt.Printf("init snowflake error:%v", err)
 		return
 	}
-
+	//初始化gin参数校验器的翻译器
+	if err := controllers.InitTrans("zh"); err != nil {
+		fmt.Printf("init validator trans error:%v", err)
+		return
+	}
 	// 5. 注册路由
-	r := routers.Setup()
+	r := routers.Setup(settings.Conf.Mode)
 	// 6. 启动服务(优雅关机)
 	srv := &http.Server{
 		Addr:    fmt.Sprintf(":%d", settings.Conf.Port),

@@ -1,6 +1,7 @@
 package routers
 
 import (
+	"goweb/controllers"
 	"goweb/logger"
 	"goweb/settings"
 	"net/http"
@@ -8,9 +9,14 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func Setup() *gin.Engine {
+func Setup(mode string) *gin.Engine {
+	if mode == gin.ReleaseMode {
+		gin.SetMode(gin.ReleaseMode)
+	}
 	r := gin.New()
 	r.Use(logger.GinLogger(), logger.GinRecovery(true))
+
+	r.POST("/signup", controllers.SignupHandler)
 	r.GET("/", func(c *gin.Context) {
 		c.String(http.StatusOK, settings.Conf.Version)
 	})
