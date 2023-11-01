@@ -3,6 +3,7 @@ package routers
 import (
 	"goweb/controllers"
 	"goweb/logger"
+	"goweb/middlewares"
 	"goweb/settings"
 	"net/http"
 
@@ -18,8 +19,9 @@ func Setup(mode string) *gin.Engine {
 
 	r.POST("/login", controllers.LoginHandler)
 	r.POST("/signup", controllers.SignupHandler)
-	r.GET("/", func(c *gin.Context) {
+	r.GET("/", middlewares.JWTAuthMiddleware(), func(c *gin.Context) {
 		c.String(http.StatusOK, settings.Conf.Version)
+
 	})
 	return r
 }

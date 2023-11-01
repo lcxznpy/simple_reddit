@@ -3,6 +3,7 @@ package service
 import (
 	"goweb/dao/mysql"
 	"goweb/models"
+	"goweb/pkg/jwt"
 	"goweb/pkg/snowflake"
 )
 
@@ -24,14 +25,14 @@ func SignUp(p *models.ParamSignUp) error {
 	return mysql.InsertUser(user)
 }
 
-func Login(p *models.ParamLogin) error {
+func Login(p *models.ParamLogin) (token string, err error) {
 	user := &models.User{
 		UserName: p.UserName,
 		Password: p.Password,
 	}
 
 	if err := mysql.LoginByUserName(user); err != nil {
-		return err
+		return "", err
 	}
-	return nil
+	return jwt.GenToken(user.UserId, user.UserName)
 }

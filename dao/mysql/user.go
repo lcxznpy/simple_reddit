@@ -48,9 +48,8 @@ func encryptPassword(oPassword string) string {
 
 func LoginByUserName(login *models.User) error {
 	password := encryptPassword(login.Password)
-	var pass string
-	sqlStr := `select password from user where username = ?`
-	err := db.Get(&pass, sqlStr, login.UserName)
+	sqlStr := `select user_id,username,password from user where username = ?`
+	err := db.Get(login, sqlStr, login.UserName)
 	if err == sql.ErrNoRows {
 		return ErrorUserNotExist
 	}
@@ -58,7 +57,7 @@ func LoginByUserName(login *models.User) error {
 	if err != nil {
 		return err
 	}
-	if password != pass {
+	if password != login.Password {
 		return ErrorInvalidPassword
 	}
 	return nil
