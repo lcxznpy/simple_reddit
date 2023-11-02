@@ -4,17 +4,10 @@ import (
 	"crypto/md5"
 	"database/sql"
 	"encoding/hex"
-	"errors"
 	"goweb/models"
 )
 
 const secret = "dhxdl666"
-
-var (
-	ErrorUserExist       = errors.New("用户已存在")
-	ErrorUserNotExist    = errors.New("用户不存在")
-	ErrorInvalidPassword = errors.New("密码错误")
-)
 
 // CheckUserExist 检查指定用户名的用户是否存在
 func CheckUserExist(username string) (err error) {
@@ -61,4 +54,11 @@ func LoginByUserName(login *models.User) error {
 		return ErrorInvalidPassword
 	}
 	return nil
+}
+
+func GetUserById(id int64) (user *models.User, err error) {
+	user = new(models.User)
+	sqlStr := `select user_id,username from user where user_id = ?`
+	err = db.Get(user, sqlStr, id)
+	return
 }

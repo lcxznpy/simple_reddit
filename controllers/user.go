@@ -60,7 +60,7 @@ func LoginHandler(c *gin.Context) {
 		ResponseErrorWithMsg(c, CodeInvalidParam, removeTopStruct(errs.Translate(trans)))
 		return
 	}
-	token, err := service.Login(p)
+	user, err := service.Login(p)
 	if err != nil {
 		zap.L().Error("login failed", zap.Error(err))
 		if errors.Is(err, mysql.ErrorUserNotExist) {
@@ -70,6 +70,10 @@ func LoginHandler(c *gin.Context) {
 		ResponseError(c, CodeInvalidPassword)
 		return
 	}
-	ResponseSuccess(c, token)
+	ResponseSuccess(c, gin.H{
+		"user_id":  fmt.Sprintf("%d", user.UserId), //如果id值大于js的数据范围,需要将值转换成string类型
+		"username": user.UserName,
+		"token":    user.Token,
+	})
 
 }

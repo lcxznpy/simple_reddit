@@ -159,3 +159,892 @@
 {"level":"INFO","time":"2023-11-01T16:45:22.373+0800","caller":"logger/logger.go:85","msg":"/posts2","status":404,"method":"GET","path":"/posts2","query":"page=1&order=time","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36","errors":"","cost":0}
 {"level":"INFO","time":"2023-11-01T16:50:44.955+0800","caller":"go_web/main.go:82","msg":"Shutdown Server ..."}
 {"level":"INFO","time":"2023-11-01T16:50:44.955+0800","caller":"go_web/main.go:91","msg":"Server exiting"}
+{"level":"INFO","time":"2023-11-01T22:23:40.058+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-01T22:23:40.137+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-01T22:23:46.195+0800","caller":"go_web/main.go:82","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-01T22:23:46.195+0800","caller":"go_web/main.go:91","msg":"Server exiting"}
+{"level":"INFO","time":"2023-11-01T22:35:46.195+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-01T22:35:46.278+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-01T22:39:13.011+0800","caller":"go_web/main.go:82","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-01T22:39:13.011+0800","caller":"go_web/main.go:91","msg":"Server exiting"}
+{"level":"INFO","time":"2023-11-01T22:44:15.879+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-01T22:44:15.986+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-01T22:45:38.614+0800","caller":"go_web/main.go:82","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-01T22:45:38.614+0800","caller":"go_web/main.go:91","msg":"Server exiting"}
+{"level":"INFO","time":"2023-11-02T13:23:05.131+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:23:05.222+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:23:34.052+0800","caller":"logger/logger.go:85","msg":"/posts2","status":404,"method":"GET","path":"/posts2","query":"page=1&order=time","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-02T13:23:40.545+0800","caller":"logger/logger.go:85","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36","errors":"","cost":0.2501036}
+{"level":"INFO","time":"2023-11-02T13:23:40.883+0800","caller":"logger/logger.go:85","msg":"/posts2","status":404,"method":"GET","path":"/posts2","query":"page=1&order=time","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-02T13:23:49.057+0800","caller":"logger/logger.go:85","msg":"/posts2","status":404,"method":"GET","path":"/posts2","query":"page=1&order=score","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-02T13:23:49.917+0800","caller":"logger/logger.go:85","msg":"/posts2","status":404,"method":"GET","path":"/posts2","query":"page=1&order=time","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-02T13:26:26.822+0800","caller":"logger/logger.go:85","msg":"/community","status":404,"method":"GET","path":"/community","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-02T13:29:28.398+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:29:28.398+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:29:28.499+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:29:28.720+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T13:29:28.776+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T13:29:29.744+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:29:29.984+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:29:30.073+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:29:33.470+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:29:33.453+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:29:33.620+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:29:33.627+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T13:29:33.691+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T13:29:39.701+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:29:39.741+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:29:39.834+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:29:39.862+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T13:29:40.142+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T13:29:40.487+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:29:40.487+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:29:40.487+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:29:40.487+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:29:40.598+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:29:40.598+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:29:40.598+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T13:29:40.665+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T13:29:40.880+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T13:29:40.884+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T13:29:43.856+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:29:43.856+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:29:44.146+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:29:44.181+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:29:44.256+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:29:45.147+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T13:29:46.443+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T13:30:32.590+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:31:07.325+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:31:07.335+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:31:07.459+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:31:07.465+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:31:07.532+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:31:07.876+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T13:31:07.939+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T13:31:07.970+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T13:31:09.075+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:31:09.075+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:31:09.169+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:31:09.394+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T13:31:09.452+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T13:31:13.986+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:31:13.986+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:31:13.986+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:31:14.329+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:31:14.329+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:31:14.329+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T13:31:14.394+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T13:31:14.394+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T13:31:14.843+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T13:34:54.361+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:34:54.362+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:34:54.363+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:34:54.458+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:34:54.467+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T13:34:54.514+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T13:34:54.518+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T13:34:54.688+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T13:34:54.750+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T13:34:55.016+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:34:55.010+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:34:55.133+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:34:55.142+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T13:34:55.216+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T13:34:56.261+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:34:56.261+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:34:56.360+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:34:56.365+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T13:34:56.420+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T13:35:09.089+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:35:09.175+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:35:09.519+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:35:09.651+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:35:09.557+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:35:09.551+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:35:09.564+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:35:09.562+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:35:09.574+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:35:09.828+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:35:09.833+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:35:09.844+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:35:09.860+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T13:35:09.886+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T13:35:09.898+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T13:35:09.910+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T13:35:10.092+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:35:20.185+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:35:20.291+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:35:20.339+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:35:20.402+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:35:20.415+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:35:20.516+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T13:35:20.566+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T13:35:20.610+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"FATAL","time":"2023-11-02T13:35:20.676+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T13:35:20.684+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T13:35:20.730+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T13:35:21.173+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:35:21.173+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:35:21.174+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:35:21.176+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:35:21.175+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:35:21.176+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:35:21.176+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:35:21.267+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:35:21.270+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:35:21.270+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:35:21.275+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T13:35:21.329+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T13:35:21.331+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T13:35:21.332+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T13:35:21.491+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:35:21.498+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T13:35:21.540+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T13:35:21.764+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T13:35:21.765+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T13:35:22.097+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:35:22.100+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:35:22.236+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:35:22.239+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T13:35:22.289+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T13:35:22.303+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T13:45:22.915+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:45:23.016+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:45:32.271+0800","caller":"logger/logger.go:85","msg":"/community","status":404,"method":"GET","path":"/community","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-02T13:47:00.167+0800","caller":"logger/logger.go:85","msg":"/api/vi/community","status":404,"method":"GET","path":"/api/vi/community","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.000554}
+{"level":"INFO","time":"2023-11-02T13:47:52.977+0800","caller":"logger/logger.go:85","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.0006547}
+{"level":"INFO","time":"2023-11-02T13:48:05.699+0800","caller":"logger/logger.go:85","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-02T13:48:41.640+0800","caller":"logger/logger.go:85","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.0275695}
+{"level":"INFO","time":"2023-11-02T13:49:08.575+0800","caller":"logger/logger.go:85","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.0003696}
+{"level":"INFO","time":"2023-11-02T13:49:32.452+0800","caller":"logger/logger.go:85","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-02T13:52:44.968+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:52:45.051+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:52:45.037+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:52:45.036+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:52:45.327+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:52:45.334+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T13:52:45.598+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T13:52:45.600+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T13:52:55.885+0800","caller":"go_web/main.go:82","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-02T13:52:55.886+0800","caller":"go_web/main.go:91","msg":"Server exiting"}
+{"level":"INFO","time":"2023-11-02T13:53:14.576+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:53:14.644+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:53:59.796+0800","caller":"logger/logger.go:85","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.0118843}
+{"level":"INFO","time":"2023-11-02T13:54:07.356+0800","caller":"logger/logger.go:85","msg":"/community","status":404,"method":"GET","path":"/community","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-02T13:55:17.489+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:55:17.773+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:55:20.566+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:55:27.213+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:55:27.410+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:55:27.410+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:55:27.410+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:55:27.486+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:55:27.493+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:55:27.499+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:55:27.505+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T13:55:27.760+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T13:55:27.762+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T13:55:27.774+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T13:56:04.966+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:56:05.039+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:56:05.197+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:56:05.197+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:56:05.197+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:56:05.276+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:56:05.494+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T13:56:05.542+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T13:56:05.547+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T13:56:05.713+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T13:56:05.765+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T13:56:32.579+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:56:32.579+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:56:32.579+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:56:32.579+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:56:32.653+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:56:32.653+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:56:32.661+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T13:56:32.709+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T13:56:32.866+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T13:56:32.919+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T13:56:32.921+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T13:56:46.515+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:56:46.613+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:56:46.764+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:56:46.835+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:56:46.836+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:56:46.836+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:56:46.837+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T13:56:47.127+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:56:47.130+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T13:56:47.172+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T13:56:47.393+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T13:56:47.711+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:56:47.774+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T13:56:47.934+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T13:56:48.052+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T13:56:48.763+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T13:56:48.996+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T14:12:23.617+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:12:23.707+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:12:23.703+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:12:23.926+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:12:23.927+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:12:23.927+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:12:23.927+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:12:24.026+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:12:24.048+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:12:24.049+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:12:24.049+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:12:24.049+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T14:12:24.109+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T14:12:24.109+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T14:12:24.109+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T14:12:24.302+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T14:12:26.124+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T14:12:31.196+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:12:31.195+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:12:31.281+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:12:37.389+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:12:37.468+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:12:37.638+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:12:37.638+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:12:37.638+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:12:37.728+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T14:12:37.770+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T14:12:38.155+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:12:38.170+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T14:12:38.217+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T14:12:39.639+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T14:13:02.440+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:13:02.533+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:13:02.589+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:13:02.590+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:13:02.590+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:13:02.674+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:13:02.674+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:13:02.892+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T14:13:03.153+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T14:13:03.158+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T14:13:04.272+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T14:13:30.558+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:13:30.558+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:13:30.558+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:13:30.656+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:13:30.656+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:13:30.872+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T14:13:31.151+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T14:13:31.593+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T14:13:43.669+0800","caller":"logger/logger.go:85","msg":"/api/v1/community/1","status":200,"method":"GET","path":"/api/v1/community/1","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.0188815}
+{"level":"INFO","time":"2023-11-02T14:15:30.434+0800","caller":"logger/logger.go:85","msg":"/api/v1/community/3","status":200,"method":"GET","path":"/api/v1/community/3","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.0213046}
+{"level":"INFO","time":"2023-11-02T14:15:33.212+0800","caller":"logger/logger.go:85","msg":"/api/v1/community/4","status":200,"method":"GET","path":"/api/v1/community/4","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.0214749}
+{"level":"ERROR","time":"2023-11-02T14:15:39.172+0800","caller":"controllers/community.go:37","msg":"service.GetCommunityDetail() failed","error":"无效id查不到社区信息"}
+{"level":"INFO","time":"2023-11-02T14:15:39.172+0800","caller":"logger/logger.go:85","msg":"/api/v1/community/5","status":200,"method":"GET","path":"/api/v1/community/5","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":2.6412476}
+{"level":"INFO","time":"2023-11-02T14:16:28.459+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:16:28.799+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:16:33.462+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:16:33.562+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:16:33.579+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:16:33.580+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:16:33.580+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:16:33.676+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:16:33.691+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T14:16:33.736+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T14:16:33.749+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T14:16:33.883+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T14:16:34.949+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T14:16:41.613+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:16:41.723+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:16:42.225+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:16:42.317+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T14:16:42.387+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T14:16:42.752+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:16:42.752+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:16:42.752+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:16:42.752+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:16:42.751+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:16:42.755+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:16:42.754+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:16:42.754+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:16:42.755+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:16:42.756+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:16:42.851+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:16:42.851+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:16:42.855+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:16:42.862+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:16:42.866+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:16:42.866+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:16:42.866+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T14:16:42.920+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T14:16:42.926+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T14:16:42.937+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T14:16:42.937+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T14:16:42.937+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T14:16:42.988+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:16:42.988+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:16:43.087+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:16:43.087+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:16:43.087+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:16:43.100+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T14:16:43.124+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T14:16:43.173+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T14:16:43.366+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T14:16:43.373+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T14:16:43.450+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:16:43.544+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:16:43.544+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T14:16:43.601+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T14:16:43.601+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T14:16:44.144+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T14:16:44.173+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T14:17:01.629+0800","caller":"logger/logger.go:85","msg":"/api/v1/community/hehe","status":200,"method":"GET","path":"/api/v1/community/hehe","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-02T14:19:03.330+0800","caller":"logger/logger.go:85","msg":"/community","status":404,"method":"GET","path":"/community","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36","errors":"","cost":0.0003282}
+{"level":"INFO","time":"2023-11-02T14:20:29.894+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:20:29.894+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:20:29.894+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:20:29.979+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:20:29.979+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:20:29.989+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T14:20:30.036+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T14:20:30.041+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T14:20:30.315+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:20:30.315+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:20:30.396+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:20:30.399+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T14:20:30.440+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T14:20:30.444+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T14:20:46.444+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:20:46.539+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:20:46.795+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:20:46.946+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:20:46.947+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:20:46.947+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:20:46.947+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:20:46.947+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:20:46.947+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:20:47.043+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:20:47.043+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:20:47.043+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:20:47.043+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:20:47.043+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:20:47.050+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T14:20:47.098+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T14:20:47.102+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T14:20:47.102+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T14:20:47.102+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T14:20:47.109+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T14:20:47.906+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T14:20:47.980+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T14:20:48.108+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T14:21:05.169+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:21:05.241+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:21:05.241+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:21:05.409+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:21:05.412+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:21:05.415+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T14:21:05.460+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T14:21:05.673+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T14:26:19.193+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:26:19.310+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:26:23.411+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:26:23.411+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:26:23.494+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:26:23.511+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:26:23.606+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T14:26:23.662+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T14:26:23.728+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T14:26:24.796+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T14:27:20.170+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:27:20.251+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T14:27:20.297+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T14:27:24.395+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:27:24.395+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:27:24.395+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:27:24.395+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:27:24.477+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:27:24.702+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:27:24.705+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T14:27:24.757+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T14:27:24.759+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T14:27:24.916+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T14:27:24.973+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T14:27:40.378+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:27:40.378+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:27:40.378+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:27:40.378+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:27:40.674+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:27:40.681+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:27:40.899+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T14:27:41.166+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T14:27:41.370+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T14:27:41.825+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T14:27:42.434+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T14:27:58.840+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:27:58.846+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:27:58.847+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:27:58.844+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:27:59.038+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:27:59.039+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:27:59.039+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:27:59.261+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T14:27:59.322+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T14:27:59.536+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T14:27:59.544+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T14:28:01.913+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:28:01.986+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:28:01.985+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:28:02.201+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:28:02.284+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T14:28:02.567+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T14:28:03.264+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T14:28:03.504+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T14:28:03.551+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T14:28:15.832+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:28:15.921+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:28:19.814+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:28:19.894+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:28:19.968+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:28:19.968+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:28:19.968+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:28:20.044+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:28:20.050+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:28:20.057+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T14:28:20.103+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T14:28:20.318+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T14:28:21.300+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T14:33:50.946+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:33:50.946+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:33:50.946+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:33:50.946+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:33:51.243+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:33:51.259+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:33:51.479+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T14:33:51.506+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T14:33:51.526+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T14:33:52.255+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T14:33:52.302+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T14:40:27.550+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:40:27.550+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:40:27.550+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:40:27.848+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:40:27.848+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:40:27.867+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T14:40:28.130+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T14:40:28.342+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T14:41:37.121+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:41:37.121+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:41:37.213+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:41:37.441+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T14:41:37.706+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T14:42:20.145+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:42:20.145+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:42:20.241+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:42:20.320+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:42:20.319+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:42:20.392+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T14:42:20.437+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T14:42:21.446+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T14:42:21.502+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T14:42:21.619+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T14:42:21.666+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T14:42:29.464+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:42:29.464+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:42:29.464+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:42:29.566+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:42:29.566+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T14:42:30.214+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:42:30.219+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T14:42:30.328+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T15:01:24.982+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T15:01:25.497+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T15:01:30.003+0800","caller":"logger/logger.go:85","msg":"/post","status":404,"method":"POST","path":"/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0}
+{"level":"INFO","time":"2023-11-02T15:01:35.910+0800","caller":"logger/logger.go:85","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.0010057}
+{"level":"INFO","time":"2023-11-02T15:02:07.736+0800","caller":"logger/logger.go:85","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.2545449}
+{"level":"INFO","time":"2023-11-02T15:04:05.095+0800","caller":"go_web/main.go:82","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-02T15:04:05.095+0800","caller":"go_web/main.go:91","msg":"Server exiting"}
+{"level":"INFO","time":"2023-11-02T15:40:21.806+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T15:40:21.893+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T15:41:24.502+0800","caller":"logger/logger.go:85","msg":"/post/831006894460928","status":404,"method":"GET","path":"/post/831006894460928","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0}
+{"level":"ERROR","time":"2023-11-02T15:41:31.995+0800","caller":"controllers/post.go:53","msg":"service.GetPostById(pid) failed","error":"nil pointer passed to StructScan destination"}
+{"level":"INFO","time":"2023-11-02T15:41:31.995+0800","caller":"logger/logger.go:85","msg":"/api/v1/post/831006894460928","status":200,"method":"GET","path":"/api/v1/post/831006894460928","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.0278343}
+{"level":"INFO","time":"2023-11-02T15:43:12.944+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T15:43:12.943+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T15:43:12.943+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T15:43:13.039+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T15:43:13.039+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T15:43:13.109+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T15:43:13.261+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T15:43:13.324+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T15:43:16.253+0800","caller":"logger/logger.go:85","msg":"/api/v1/post/831006894460928","status":200,"method":"GET","path":"/api/v1/post/831006894460928","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.0284077}
+{"level":"INFO","time":"2023-11-02T15:46:44.852+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T15:46:44.942+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T15:46:45.185+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T15:46:45.185+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T15:46:45.186+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T15:46:45.186+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T15:46:45.290+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T15:46:45.290+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T15:46:45.498+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T15:46:45.564+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T15:46:45.577+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T15:46:45.725+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T15:46:45.790+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T15:46:45.802+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T15:47:03.567+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T15:47:03.758+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T15:47:03.759+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T15:47:03.759+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T15:47:03.848+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T15:47:03.856+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T15:47:04.057+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T15:47:04.099+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T15:47:04.322+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T15:47:04.369+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T15:47:04.915+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T15:47:07.382+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T15:47:07.382+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T15:47:07.889+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T15:47:07.939+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T15:47:08.476+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T15:47:08.532+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T15:47:28.666+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T15:47:28.666+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T15:47:28.666+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T15:47:28.666+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T15:47:28.747+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T15:47:28.747+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T15:47:28.751+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T15:47:28.754+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T15:47:28.809+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T15:47:28.811+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T15:47:28.814+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T15:47:42.902+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T15:47:42.982+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T15:47:43.087+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T15:47:43.161+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T15:47:43.204+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T15:47:43.299+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T15:47:43.299+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T15:47:43.370+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T15:47:43.590+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T15:47:43.637+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T15:47:44.634+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T15:48:04.197+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T15:48:04.279+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T15:48:04.273+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T15:48:04.273+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T15:48:04.273+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T15:48:04.273+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T15:48:04.274+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T15:48:04.374+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T15:48:04.374+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T15:48:04.587+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T15:48:04.676+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T15:48:04.768+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T15:48:04.811+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T15:48:04.811+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T15:48:04.863+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T15:48:04.868+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T15:48:04.877+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T15:58:42.084+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T15:58:42.184+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T15:58:42.228+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:06:56.018+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:06:56.316+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:06:56.316+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:06:56.316+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:06:56.316+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:06:56.316+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:06:56.412+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:06:56.412+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:06:56.413+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:06:56.413+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:06:56.475+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T16:06:56.475+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T16:06:56.475+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:06:56.525+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:06:56.580+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:06:56.630+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:06:56.688+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"ERROR","time":"2023-11-02T16:07:53.733+0800","caller":"service/post.go:32","msg":"mysql.GetUserById(post.AuthorId) failed","author_id":403660752293888,"error":"Error 1054 (42S22): Unknown column 'user_name' in 'field list'"}
+{"level":"ERROR","time":"2023-11-02T16:07:53.733+0800","caller":"controllers/post.go:53","msg":"service.GetPostById(pid) failed","error":"Error 1054 (42S22): Unknown column 'user_name' in 'field list'"}
+{"level":"INFO","time":"2023-11-02T16:07:53.733+0800","caller":"logger/logger.go:85","msg":"/api/v1/post/831006894460928","status":200,"method":"GET","path":"/api/v1/post/831006894460928","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.0305992}
+{"level":"INFO","time":"2023-11-02T16:08:29.207+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:08:29.287+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:08:29.333+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:08:35.459+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:08:35.540+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:08:35.529+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:08:35.529+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:08:35.529+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:08:35.603+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:08:35.819+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:08:35.822+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:08:35.868+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T16:08:36.016+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T16:08:37.685+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:08:40.584+0800","caller":"logger/logger.go:85","msg":"/api/v1/post/831006894460928","status":200,"method":"GET","path":"/api/v1/post/831006894460928","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.0568631}
+{"level":"INFO","time":"2023-11-02T16:10:49.322+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:10:49.461+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:10:49.462+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:10:49.461+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:10:49.462+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:10:49.537+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:10:49.545+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:10:49.551+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:10:49.592+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:10:49.602+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:10:49.656+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:10:49.752+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:10:50.227+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T16:10:50.600+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:10:53.871+0800","caller":"logger/logger.go:85","msg":"/api/v1/post/831006894460928","status":200,"method":"GET","path":"/api/v1/post/831006894460928","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.0518704}
+{"level":"INFO","time":"2023-11-02T16:12:48.664+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:12:48.747+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:12:48.806+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:12:48.807+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:12:48.807+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:12:48.882+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:12:48.885+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:12:48.889+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:12:48.931+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T16:12:48.936+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T16:12:48.937+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:13:06.994+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:13:07.066+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:13:07.158+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:13:07.159+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:13:07.159+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:13:07.228+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:13:07.269+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:13:08.236+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:13:08.239+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:13:08.285+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T16:13:08.288+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:13:27.230+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:13:27.339+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:13:27.409+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:13:27.412+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:13:27.413+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:13:27.483+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:13:27.498+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:13:27.529+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T16:13:27.545+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:13:28.198+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:13:28.252+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:13:49.825+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:13:49.826+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:13:49.912+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:13:50.125+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:13:54.723+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:13:55.141+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:13:55.207+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:13:55.290+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:13:55.307+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:13:55.307+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"FATAL","time":"2023-11-02T16:13:55.335+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:13:55.394+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:13:55.446+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:13:55.576+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:13:55.664+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:13:55.715+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:13:55.826+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:13:55.878+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:13:56.216+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:13:56.297+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:13:56.497+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"FATAL","time":"2023-11-02T16:13:56.548+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:13:56.785+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:13:56.835+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:15:03.709+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:15:03.809+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:26:55.192+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:26:55.267+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:27:06.814+0800","caller":"logger/logger.go:85","msg":"/api/v1/post","status":200,"method":"GET","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.0505013}
+{"level":"INFO","time":"2023-11-02T16:27:40.963+0800","caller":"logger/logger.go:85","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.0294176}
+{"level":"INFO","time":"2023-11-02T16:27:51.098+0800","caller":"logger/logger.go:85","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.4615242}
+{"level":"INFO","time":"2023-11-02T16:27:56.769+0800","caller":"logger/logger.go:85","msg":"/api/v1/post","status":200,"method":"GET","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.7396424}
+{"level":"INFO","time":"2023-11-02T16:28:09.436+0800","caller":"logger/logger.go:85","msg":"/api/v1/post","status":200,"method":"GET","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.3009428}
+{"level":"INFO","time":"2023-11-02T16:32:37.693+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:32:37.840+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:32:37.840+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:32:37.840+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:32:37.840+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:32:38.014+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:32:38.049+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:32:38.052+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:32:38.097+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:32:38.142+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:32:38.191+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:32:38.289+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:32:38.336+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T16:32:42.153+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:32:47.780+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:32:47.780+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:33:01.822+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:33:01.889+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:33:01.966+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:33:02.112+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:33:02.121+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:33:02.122+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:33:02.121+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:33:02.121+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"FATAL","time":"2023-11-02T16:33:02.157+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:33:02.200+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:33:02.203+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:33:02.251+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:33:02.423+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:33:02.471+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T16:33:02.678+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:33:03.653+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:33:03.908+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:34:35.046+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:34:35.046+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:34:35.046+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:34:35.046+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:34:35.046+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:34:35.131+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:34:35.145+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:34:35.204+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:34:35.349+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:34:35.360+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:34:35.407+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T16:34:35.419+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:34:36.164+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:34:36.229+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:34:40.671+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:34:40.756+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:34:40.803+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:34:45.149+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:34:45.149+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:34:45.149+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:34:45.149+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:34:45.231+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:34:45.234+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:34:45.238+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:34:45.240+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:34:45.293+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T16:34:45.293+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T16:34:45.505+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:34:56.605+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:34:56.840+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:34:56.840+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:34:56.840+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:34:56.907+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:34:56.918+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:34:56.922+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:34:56.932+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:34:56.984+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T16:34:57.183+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T16:34:57.961+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:35:36.577+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:35:36.647+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:35:36.642+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:35:36.643+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:35:36.716+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:35:36.720+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:35:36.761+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T16:35:36.767+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:35:48.627+0800","caller":"logger/logger.go:85","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.2348153}
+{"level":"ERROR","time":"2023-11-02T16:35:54.660+0800","caller":"controllers/post.go:84","msg":"service.GetPostList() failed","error":"Error 1690 (22003): signed integer value is out of range in 'mysqld_stmt_execute'"}
+{"level":"INFO","time":"2023-11-02T16:35:54.660+0800","caller":"logger/logger.go:85","msg":"/api/v1/post","status":200,"method":"GET","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.2872635}
+{"level":"ERROR","time":"2023-11-02T16:36:00.268+0800","caller":"controllers/post.go:84","msg":"service.GetPostList() failed","error":"Error 1690 (22003): signed integer value is out of range in 'mysqld_stmt_execute'"}
+{"level":"INFO","time":"2023-11-02T16:36:00.268+0800","caller":"logger/logger.go:85","msg":"/api/v1/post","status":200,"method":"GET","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.018334}
+{"level":"INFO","time":"2023-11-02T16:36:56.608+0800","caller":"go_web/main.go:82","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-02T16:36:56.609+0800","caller":"go_web/main.go:91","msg":"Server exiting"}
+{"level":"INFO","time":"2023-11-02T16:36:59.219+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:36:59.295+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"ERROR","time":"2023-11-02T16:37:07.285+0800","caller":"controllers/post.go:84","msg":"service.GetPostList() failed","error":"Error 1690 (22003): signed integer value is out of range in 'mysqld_stmt_execute'"}
+{"level":"INFO","time":"2023-11-02T16:37:07.285+0800","caller":"logger/logger.go:85","msg":"/api/v1/post","status":200,"method":"GET","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.0191913}
+{"level":"INFO","time":"2023-11-02T16:38:27.068+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:38:27.068+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:38:27.144+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:38:27.151+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:38:27.198+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:38:30.767+0800","caller":"go_web/main.go:82","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-02T16:38:30.767+0800","caller":"go_web/main.go:91","msg":"Server exiting"}
+{"level":"INFO","time":"2023-11-02T16:38:32.821+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:38:32.899+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:38:39.784+0800","caller":"logger/logger.go:85","msg":"/api/v1/post","status":200,"method":"GET","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.1843848}
+{"level":"INFO","time":"2023-11-02T16:39:19.281+0800","caller":"logger/logger.go:85","msg":"/api/v1/post","status":200,"method":"GET","path":"/api/v1/post","query":"size=1","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.0635688}
+{"level":"INFO","time":"2023-11-02T16:39:40.095+0800","caller":"logger/logger.go:85","msg":"/api/v1/post","status":200,"method":"GET","path":"/api/v1/post","query":"size=1&page=2","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.0750144}
+{"level":"INFO","time":"2023-11-02T16:39:57.515+0800","caller":"logger/logger.go:85","msg":"/api/v1/post","status":200,"method":"GET","path":"/api/v1/post","query":"size=1&page=3","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.0831044}
+{"level":"INFO","time":"2023-11-02T16:40:03.666+0800","caller":"logger/logger.go:85","msg":"/api/v1/post","status":200,"method":"GET","path":"/api/v1/post","query":"size=1&page=4","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.0926129}
+{"level":"INFO","time":"2023-11-02T16:41:33.970+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:41:33.972+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:41:34.080+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:41:34.084+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:41:34.142+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:41:34.841+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:41:34.927+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:41:35.006+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:41:34.997+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:41:35.099+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:41:35.153+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:42:21.787+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:42:21.873+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:42:22.008+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:42:22.082+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:42:22.148+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:42:22.100+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:42:22.103+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:42:22.097+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:42:22.094+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:42:22.103+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:42:22.097+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:42:22.288+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:42:22.294+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:42:22.340+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:42:22.341+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:42:22.344+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:42:22.347+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:42:22.347+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:42:22.354+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T16:42:22.393+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T16:42:22.395+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T16:42:22.396+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T16:42:22.408+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:42:25.875+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:42:25.880+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:42:26.028+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:42:26.050+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:42:26.108+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:42:31.053+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:42:31.156+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:42:31.635+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:42:31.636+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:42:31.638+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:42:31.638+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:42:31.638+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:42:31.722+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:42:31.728+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:42:31.731+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:42:31.731+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:42:31.731+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:42:31.776+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T16:42:31.783+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T16:42:31.786+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T16:42:31.793+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T16:42:31.798+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:42:32.774+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:42:32.850+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:42:32.905+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:42:33.086+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:42:33.086+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:42:33.086+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:42:33.086+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:42:33.168+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:42:33.174+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:42:33.182+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:42:33.182+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"FATAL","time":"2023-11-02T16:42:33.230+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T16:42:33.232+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T16:42:33.232+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"FATAL","time":"2023-11-02T16:42:33.232+0800","caller":"go_web/main.go:70","msg":"listen error ","error":"listen tcp :8081: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-11-02T16:42:37.380+0800","caller":"go_web/main.go:82","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-02T16:42:37.381+0800","caller":"go_web/main.go:91","msg":"Server exiting"}
+{"level":"INFO","time":"2023-11-02T16:43:05.492+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-02T16:43:05.588+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-02T16:43:13.106+0800","caller":"logger/logger.go:85","msg":"/api/v1/post","status":200,"method":"GET","path":"/api/v1/post","query":"size=2&page=4","ip":"::1","user-agent":"PostmanRuntime/7.34.0","errors":"","cost":0.0181971}
+{"level":"INFO","time":"2023-11-02T17:18:00.993+0800","caller":"go_web/main.go:82","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-02T17:18:00.994+0800","caller":"go_web/main.go:91","msg":"Server exiting"}
