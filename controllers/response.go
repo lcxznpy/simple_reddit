@@ -18,7 +18,7 @@ import (
 type ResponseData struct {
 	Code ResCode     `json:"code"`
 	Msg  interface{} `json:"msg"`
-	Data interface{} `json:"data,omitempty"`
+	Data interface{} `json:"data,omitempty"` //如果字段值为空,则不显示data
 }
 
 func ResponseError(c *gin.Context, code ResCode) {

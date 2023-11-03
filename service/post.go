@@ -2,18 +2,26 @@ package service
 
 import (
 	"goweb/dao/mysql"
+	"goweb/dao/redis"
 	"goweb/models"
 	"goweb/pkg/snowflake"
 
 	"go.uber.org/zap"
 )
 
+// todo 如何保证写mysql和写redis都一起成功
 // CreatePost 创建帖子
 func CreatePost(p *models.Post) (err error) {
 	// 1. 生成post_id
 	p.Id = int64(snowflake.GenID())
 	// 2. 保存数据库
-	return mysql.CreatePost(p)
+	err = mysql.CreatePost(p)
+	if err != nil {
+		return
+	}
+	err = redis.CreatePost(p.Id, p.CommunityId)
+	return
+
 }
 
 // GetPostById 根据帖子id查询帖子详情
