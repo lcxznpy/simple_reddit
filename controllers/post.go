@@ -96,6 +96,16 @@ func getPageInfo(c *gin.Context) (int64, int64) {
 }
 
 // GetPostListHandler2  根据前端传来的参数动态获取帖子列表   参数:创建时间、帖子评分
+// @Summary 升级版帖子列表接口
+// @Description 可按社区按时间或分数排序查询帖子列表接口
+// @Tags 帖子相关接口(api分组展示使用的)
+// @Accept application/json
+// @Produce application/json
+// @Param Authorization header string true "Bearer JWT"
+// @Param object query models.ParamPostList false "查询参数"
+// @Security ApiKeyAuth
+// @Success 200 {object} _ResponsePostList
+// @Router /posts2 [get]
 func GetPostListHandler2(c *gin.Context) {
 	// 1.获取参数
 	//get请求从  url里面获取参数 /api/v1/post2?page=2&size=1&order=time

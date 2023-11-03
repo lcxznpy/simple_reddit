@@ -1194,3 +1194,9 @@
 {"level":"INFO","time":"2023-11-03T17:07:59.706+0800","caller":"logger/logger.go:85","msg":"/api/v1/post/1224018426335232","status":200,"method":"GET","path":"/api/v1/post/1224018426335232","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36","errors":"","cost":0.065828}
 {"level":"INFO","time":"2023-11-03T17:13:54.392+0800","caller":"go_web/main.go:82","msg":"Shutdown Server ..."}
 {"level":"INFO","time":"2023-11-03T17:13:54.393+0800","caller":"go_web/main.go:91","msg":"Server exiting"}
+{"level":"INFO","time":"2023-11-03T18:01:18.474+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-03T18:01:18.576+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-03T18:02:20.060+0800","caller":"logger/logger.go:52","msg":"logger init success"}
+{"level":"INFO","time":"2023-11-03T18:02:20.170+0800","caller":"mysql/mysql.go:30","msg":"mysql init success"}
+{"level":"INFO","time":"2023-11-03T18:02:37.878+0800","caller":"go_web/main.go:82","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-11-03T18:02:37.878+0800","caller":"go_web/main.go:91","msg":"Server exiting"}

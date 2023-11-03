@@ -2,10 +2,14 @@ package routers
 
 import (
 	"goweb/controllers"
+	_ "goweb/docs" // 千万不要忘了导入把你上一步生成的docs
 	"goweb/logger"
 	"goweb/middlewares"
 
+	swaggerFiles "github.com/swaggo/files"
+
 	"github.com/gin-gonic/gin"
+	gs "github.com/swaggo/gin-swagger"
 )
 
 func Setup(mode string) *gin.Engine {
@@ -13,6 +17,7 @@ func Setup(mode string) *gin.Engine {
 		gin.SetMode(gin.ReleaseMode)
 	}
 	r := gin.New()
+	r.GET("/swagger/*any", gs.WrapHandler(swaggerFiles.Handler))
 	r.Use(logger.GinLogger(), logger.GinRecovery(true))
 
 	v1 := r.Group("/api/v1")
