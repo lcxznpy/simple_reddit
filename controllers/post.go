@@ -58,6 +58,7 @@ func GetPostDetailHandler(c *gin.Context) {
 	ResponseSuccess(c, data)
 }
 
+// GetPostListHandler 通过mysql获取帖子列表
 func GetPostListHandler(c *gin.Context) {
 
 	// 1. 获取分页参数
@@ -93,3 +94,60 @@ func getPageInfo(c *gin.Context) (int64, int64) {
 	}
 	return page, size
 }
+
+// GetPostListHandler2  根据前端传来的参数动态获取帖子列表   参数:创建时间、帖子评分
+func GetPostListHandler2(c *gin.Context) {
+	// 1.获取参数
+	//get请求从  url里面获取参数 /api/v1/post2?page=2&size=1&order=time
+	p := &models.ParamPostList{
+		Page:  1,
+		Size:  10,
+		Order: models.OrderTime, //magic string
+	}
+	if err := c.ShouldBindQuery(p); err != nil {
+		zap.L().Error("GetPostListHandler2 with invalid param", zap.Error(err))
+		ResponseError(c, CodeInvalidParam)
+		return
+	}
+
+	// 2.从redis中获取id列表
+
+	date, err := service.GetPostListNew(p)
+	if err != nil {
+		zap.L().Error("service.GetPostList() failed", zap.Error(err))
+		ResponseError(c, CodeServerBusy)
+		return
+	}
+
+	// 3.根据id列表从数据库中查帖子数据
+	// 2. 返回响应
+	ResponseSuccess(c, date)
+}
+
+//func GetCommunityPostListHandler(c *gin.Context) {
+//	// 1.获取参数
+//	//get请求从  url里面获取参数 /api/v1/post2?page=2&size=1&order=time
+//	p := &models.ParamCommunityPostList{
+//		Page:  1,
+//		Size:  10,
+//		Order: models.OrderTime, //magic string
+//	}
+//	if err := c.ShouldBindQuery(p); err != nil {
+//		zap.L().Error("GetCommunityPostListHandler with invalid param", zap.Error(err))
+//		ResponseError(c, CodeInvalidParam)
+//		return
+//	}
+//
+//	// 2.从redis中获取id列表
+//
+//	date, err := service.GetCommunityPostList(p)
+//	if err != nil {
+//		zap.L().Error("service.GetCommunityPostList(p) failed", zap.Error(err))
+//		ResponseError(c, CodeServerBusy)
+//		return
+//	}
+//
+//	// 3.根据id列表从数据库中查帖子数据
+//	// 2. 返回响应
+//	ResponseSuccess(c, date)
+//}

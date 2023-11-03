@@ -3,6 +3,7 @@ package redis
 import (
 	"context"
 	"errors"
+	"fmt"
 	"math"
 	"strconv"
 	"time"
@@ -53,6 +54,9 @@ func VoteForPost(userId, postId string, value float64) error {
 	//获取帖子时间，判断还能不能投票
 	postTime := client.ZScore(ctx, getKeyString(KeyPostTimeZSet), postId).Val()
 	if float64(time.Now().Unix())-postTime > oneWeekInSeconds {
+		fmt.Println(float64(time.Now().Unix()))
+		fmt.Println(postTime)
+		fmt.Println(float64(time.Now().Unix()) - postTime)
 		return ErrVoteTimeExpired
 	}
 	// 2 和 3 要开启pipeline事务
@@ -60,6 +64,7 @@ func VoteForPost(userId, postId string, value float64) error {
 	//获取当前用户给帖子的投票记录
 	oldv := client.ZScore(ctx, getKeyString(KeyPostVotedZSetPrefix+postId), userId).Val()
 	var op float64
+	//不允许重复投票
 	if oldv == value {
 		return ErrVoteRepeated
 	}
