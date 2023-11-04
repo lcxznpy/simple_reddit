@@ -23,9 +23,9 @@ mysql:
   max_open_conns: 200
   max_idle_conns: 50
 redis:
-  host: "127.0.0.1"
-  port: 6379
-  password: ""
+  host: "47.102.119.88"
+  port: 16379
+  password: "dhxdl666"
   db: 0
   pool_size: 100
   min_idle_conns: 50

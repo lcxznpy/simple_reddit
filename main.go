@@ -34,28 +34,33 @@ func main() {
 		fmt.Printf("init logger failed :%v", err)
 		return
 	}
+	fmt.Println("logger init success")
 	defer zap.L().Sync() //缓冲区内容存入磁盘
 	// 3. 初始化mysql
 	if err := mysql.Init(settings.Conf.MySQLConfig); err != nil {
 		fmt.Printf("init mysql failed :%v", err)
 		return
 	}
+	fmt.Println("mysql init success")
 	defer mysql.Close() //关闭mysql
 	// 4. 初始化redis
 	if err := redis.Init(settings.Conf.RedisConfig); err != nil {
 		fmt.Printf("init redis failed :%v", err)
 		return
 	}
+	fmt.Println("redis init success")
 	//雪花算法id生成器
 	if err := snowflake.Init(settings.Conf.StartTime, settings.Conf.MachineID); err != nil {
 		fmt.Printf("init snowflake error:%v", err)
 		return
 	}
+	fmt.Println("snowflake init success")
 	//初始化gin参数校验器的翻译器
 	if err := controllers.InitTrans("zh"); err != nil {
 		fmt.Printf("init validator trans error:%v", err)
 		return
 	}
+	fmt.Println("translator init success")
 	// 5. 注册路由
 	r := routers.Setup(settings.Conf.Mode)
 	// 6. 启动服务(优雅关机)
