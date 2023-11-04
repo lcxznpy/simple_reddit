@@ -5,6 +5,7 @@ import (
 	_ "goweb/docs" // 千万不要忘了导入把你上一步生成的docs
 	"goweb/logger"
 	"goweb/middlewares"
+	"time"
 
 	swaggerFiles "github.com/swaggo/files"
 
@@ -18,15 +19,14 @@ func Setup(mode string) *gin.Engine {
 	}
 	r := gin.New()
 	r.GET("/swagger/*any", gs.WrapHandler(swaggerFiles.Handler))
-	r.Use(logger.GinLogger(), logger.GinRecovery(true))
+	//middlewares.RateLimitMiddleware(time.Second*10, 1)  每10s放一个令牌
+	r.Use(logger.GinLogger(), logger.GinRecovery(true), middlewares.RateLimitMiddleware(time.Second*2, 1))
 
 	v1 := r.Group("/api/v1")
 	//登录
 	v1.POST("/login", controllers.LoginHandler)
 	//注册
 	v1.POST("/signup", controllers.SignupHandler)
-
-	v1.Use(middlewares.JWTAuthMiddleware())
 
 	{
 		v1.GET("/community", controllers.CommunityHandler)
@@ -40,5 +40,6 @@ func Setup(mode string) *gin.Engine {
 
 		v1.POST("/vote", controllers.PostVoteHandler)
 	}
+	v1.Use(middlewares.JWTAuthMiddleware())
 	return r
 }
